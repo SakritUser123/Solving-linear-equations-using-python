@@ -1,0 +1,18 @@
+def linear_equation():
+    cats = [1,2,3,4,5]
+    for i in cats:
+        slope = float(input('Enter your slope:'))
+        if slope == float:
+            print('hi')
+        y_intercept = float(input('Enter your y-intercept:'))
+        if y_intercept == float:
+            print('no')
+        x = float(input('Enter a random number you want as x value:'))
+        if x == float:
+            print('nodh')
+        y = str(slope * x + y_intercept)
+        print('This is your slope:'+ y)
+        break
+    
+    
+linear_equation()
